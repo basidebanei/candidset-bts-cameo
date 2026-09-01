@@ -6,7 +6,7 @@
 
 **An AI-Powered Web Application that creates ultra-photorealistic Behind-The-Scenes (BTS) candid snapshot photos with movie stars resting on authentic film sets.**
 
-[![GitHub stars](https://img.shields.io/badge/GitHub-Star%20Us-00ff66?style=for-the-badge&logo=github)](https://github.com/)
+[![GitHub stars](https://img.shields.io/badge/GitHub-Star%20Us-00ff66?style=for-the-badge&logo=github)](https://github.com/basidebanei/candidset-bts-cameo)
 [![Built with](https://img.shields.io/badge/Built%20with-Gemini%203.7%20Flash-blue?style=for-the-badge&logo=google)](https://aistudio.google.com/)
 [![Engine](https://img.shields.io/badge/Engine-HTML5%20Canvas%20Shaders-red?style=for-the-badge)](https://developer.mozilla.org/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
@@ -43,11 +43,6 @@ flowchart LR
     E --> F[Canvas 模块 C: VIP 通行证 / 拍立得 300DPI 导出]
 ```
 
-### 1. Canvas 核心引擎 (A + B + C)
-* **Canvas Module A (Preprocess)**：客户端人脸检测、五官中心对齐、4:3 经典画幅裁剪与体积压缩。
-* **Canvas Module B (Shaders)**：即时在本地注入机顶闪光光晕（Radial Flash Bloom）、ISO 1200 颗粒噪点与红蓝色散位移（RGB Split）。
-* **Canvas Module C (Social Badges)**：一键合成 **《黑客帝国》VIP All Access 剧组探班通行证**吊牌、1999 复古手写体拍立得与超高清 JPG。
-
 ---
 
 ## 🚀 极速上手运行 (Quick Start)
@@ -68,15 +63,7 @@ http://localhost:3000
 
 ---
 
-## 📸 示例展示 (Showcase)
-
-| 探班原图 (Flash-on Candid) | VIP 剧组探班通行证 (All Access Pass) |
-| :---: | :---: |
-| 模拟 1999 悉尼片场机顶直闪抓拍 | 自动生成防伪镭射标与华纳兄弟机密印章 |
-
----
-
 ## 📄 开源许可证 (License)
 本项目基于 [MIT License](LICENSE) 开源。
 
-*Developed and crafted with ❤️ by Antigravity AI Agent.*
+*Developed and crafted with ❤️ by Antigravity AI Agent for @basidebanei*
