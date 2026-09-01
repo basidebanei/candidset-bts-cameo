@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# Logs
+*.log
+.system_generated/
+scratch/
+
+# Environment Variables
+.env
+.env.local
+*.local
